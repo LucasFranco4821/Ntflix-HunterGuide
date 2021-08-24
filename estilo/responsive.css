@@ -1,0 +1,20 @@
+@media screen and (max-width:730px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .capa{
+        min-width: cover;
+        min-height: cover;
+    }
+   
+}
+@media screen and (max-width:760px){
+    .sinopse{
+        color: transparent;
+    }
+    .titulo{
+       color: transparent;
+    }
+}

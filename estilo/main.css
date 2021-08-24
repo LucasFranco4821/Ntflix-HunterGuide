@@ -1,0 +1,100 @@
+:root{
+    --Cinza: rgb(151, 151, 151);
+    --Branco: rgb(241, 241, 241);
+    --Preto:  rgb(49, 48, 48);
+    --Amarelo: rgb(255, 230, 0);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--Preto);
+    font-family: Lucida;
+    color: var(--Amarelo);
+}
+
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+header .logo{
+    color: var(--Branco);
+    font-family: Lucida;
+    font-size: 40px;
+    margin-left: 5px;
+    margin-top: 2%;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--Cinza);
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: var(--Branco);
+}
+.capa{
+    font-size: 25px;
+    display: flex;
+    background: url('/img/Capa.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: line;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    font-family: Verdana, sans-serif;
+}
+.titulo{
+  
+    margin-top: 2%;
+    font-family: Verdana, sans-serif;
+}
+/*intro monster
+/*/
+.sinopse{
+    color: var(--Branco);
+    margin-top: 2%;
+    font-size: 18px;
+    margin-left: 16%;
+}
+.botao1{
+    background-color: var(--Amarelo);
+    border-color:transparent;
+    color: var(--Preto);
+    padding: 15px 60px;
+    
+    margin: 1%;
+    font-size: 14px;
+    cursor: pointer;
+    transition: .4s ease all;
+      
+}
+
+.botao1:hover{
+    background-color: var(--Branco);
+    color: var(--Preto);
+}
+.botao1 i{
+    margin-right: 8px;
+}
+.quadro{
+    background-color: var(--Amarelo);
+    background-size: 50px;
+}
+
+.box-carrosel{
+    height: 50%;
+    width: 50%;
+    display: block;
+}
+
